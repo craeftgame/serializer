@@ -29,10 +29,12 @@ export default class Serializer {
         }
     }
 
-    static serialize({
-                         obj,
-                         compress = false
-                     } = {}) {
+    static serialize(
+        {
+            obj,
+            compress = false
+        } = {}
+    ) {
         const replacer = (name, value) => {
             if (typeof value === "symbol") {
                 value = `$$Symbol:${Symbol.keyFor(value)}`
