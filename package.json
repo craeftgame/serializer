@@ -2,12 +2,12 @@
   "name": "@craeft/serializer",
   "version": "1.3.0",
   "description": "",
-  "main": "src/serializer.js",
+  "main": "./src/serializer.js",
   "scripts": {
     "prettier": "prettier ./src --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sebastian Gerske",
+  "author": "Umlaut Games",
   "license": "MIT",
   "repository": {
     "type": "git",
